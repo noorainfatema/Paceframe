@@ -87,6 +87,53 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/************** HOME GRID **************/
+
+.wrapper {
+  display: grid;
+  gap: 8px;
+}
+.img-one {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.img-two {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.img-three {
+  grid-column: 2/4;
+  grid-row: 1/3;
+}
+.img-four {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+.img-five {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+.img-six {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.img-seven {
+  grid-column: 2/4;
+  grid-row: 4/5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
