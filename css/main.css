@@ -100,23 +100,73 @@ html {
 
 body {
   background-color: #078080;
+  color: #dedede;
   font-size: 1.25em;
   font-family: HK Grotesk;
 }
 
+/********** HEADER **********/
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  border-bottom: 1px solid #dedede;
+}
 
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 16px;
+}
 
+nav ul {
+  gap: 16px;
+  line-height: 24px;
+  font-size: 1.125em;
+}
 
-   /************** HOME GRID **************/
+nav li {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 8px;
+}
+
+/*** TENTATIVE, im still figuring out how to make nav ul il an inline block
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav ul li {
+  float: left;
+  text-align: center;
+  text-decoration: underline;
+  overflow: hidden;
+} ***/
+
+/************ MISSION STATEMENT **************/
+.mission-statement {
+  font-weight: 400;
+}
+
+span {
+  font-weight: bolder;
+}
+/************** HOME GRID **************/
 
 .hero-area {
   background-color: #F8F5F2;
+  max-width: 390px;
 }
 
 /********** this part is glitchy on samsung galaxy s20 ultra view *************/
 .wrapper {
-  max-width: 390px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -245,6 +295,7 @@ img {
 
       .wrapper {
         display: grid;
+        grid-auto-columns: 1fr;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(5, 1fr);
         gap: 8px;
