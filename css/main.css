@@ -113,6 +113,8 @@ body {
 .hero-area {
   background-color: #F8F5F2;
 }
+
+/********** this part is glitchy on samsung galaxy s20 ultra view *************/
 .wrapper {
   max-width: 390px;
   display: flex;
@@ -236,6 +238,10 @@ img {
    @media only screen and (min-width:1200px) {
 
        /************** HOME GRID **************/
+
+       .hero-area {
+        max-width: 1400px;
+       }
 
       .wrapper {
         display: grid;
