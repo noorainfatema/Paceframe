@@ -88,7 +88,10 @@ textarea {
    ========================================================================== */
 
 /********** BODY **********/
-
+@font-face {
+  src:url(../hk-grotesk/HKGrotesk-Medium.otf);
+  font-family: HK Grotesk;
+}
 html {
   font-size: 16px;
   scroll-behavior: smooth;
@@ -97,6 +100,7 @@ html {
 body {
   background-color: #078080;
   font-size: 1.25em;
+  font-family: HK Grotesk;
 }
 
 
