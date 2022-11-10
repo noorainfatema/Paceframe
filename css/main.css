@@ -165,11 +165,26 @@ span {
 /************** HOME GRID **************/
 
 .hero-area {
-  background-color: #F8F5F2;
-  max-width: 390px;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
 }
 
-/********** this part is glitchy on samsung galaxy s20 ultra view *************/
+.wrapper img {
+  background-color: #F8F5F2;
+  max-width: 300px;
+  padding: 8px;
+}
+
+/********************************** GONNA TRY AND FIX THIS *****************************
+.hero-area {
+  background-color: #F8F5F2;
+  max-width: 390px;
+  display: flex;
+  justify-content: center;
+}
+
+/********** this part is glitchy on samsung galaxy s20 ultra view
 .wrapper {
   display: flex;
   align-items: center;
@@ -182,9 +197,7 @@ img {
   padding: 8px;
 }
 
-
-
-
+**********************************GONNA TRY AND FIX THIS *******************/
 
 
 
@@ -291,7 +304,7 @@ img {
     
    @media only screen and (min-width:1200px) {
 
-       /************** HOME GRID **************/
+       /************** HOME GRID **************
 
        .hero-area {
         max-width: 1400px;
@@ -336,7 +349,7 @@ img {
       
 
 
-
+************* HOME GRID **************/
     }
 
 
