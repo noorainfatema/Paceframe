@@ -155,6 +155,10 @@ nav ul li {
   font-weight: 400;
 }
 
+p {
+  text-align: center;
+}
+
 span {
   font-weight: bolder;
 }
