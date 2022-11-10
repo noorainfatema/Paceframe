@@ -125,20 +125,6 @@ nav {
 }
 
 nav ul {
-  gap: 16px;
-  line-height: 24px;
-  font-size: 1.125em;
-}
-
-nav li {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 12px 8px;
-}
-
-/*** TENTATIVE, im still figuring out how to make nav ul il an inline block
-nav ul {
   list-style-type: none;
   display: inline-block;
 }
@@ -146,9 +132,9 @@ nav ul {
 nav ul li {
   float: left;
   text-align: center;
-  text-decoration: underline;
   overflow: hidden;
-} ***/
+  border-bottom: 1px solid #dedede;
+} 
 
 /************ MISSION STATEMENT **************/
 .mission-statement {
@@ -177,6 +163,7 @@ span {
 }
 
 /********************************** GONNA TRY AND FIX THIS *****************************
+****** I THINK I FIXED IT (SEE ABOVE) I WILL DELETE IT ONCE IT IS APPROVED
 .hero-area {
   background-color: #F8F5F2;
   max-width: 390px;
@@ -200,8 +187,19 @@ img {
 **********************************GONNA TRY AND FIX THIS *******************/
 
 
+/****************** FOOTER LINKS ************************/
 
+.footer-links ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+}
 
+.footer-links ul li {
+  border-bottom: 1px solid #dedede;
+}
 
 
 
