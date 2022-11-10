@@ -116,6 +116,14 @@ header {
   border-bottom: 1px solid #dedede;
 }
 
+header h1 {
+  font-size: 1.75em;
+}
+
+.header-item {
+  margin: 0;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -127,14 +135,26 @@ nav {
 nav ul {
   list-style-type: none;
   display: inline-block;
+  padding: 0;
 }
 
 nav ul li {
   float: left;
+  font-size: 0.75em;
   text-align: center;
   overflow: hidden;
   border-bottom: 1px solid #dedede;
-} 
+}
+
+#work-link {
+  margin-right: 16px;
+}
+
+#about-link {
+  margin-left: 16px;
+}
+
+
 
 /************ MISSION STATEMENT **************/
 .mission-statement {
@@ -295,6 +315,8 @@ img {
    ========================================================================== */
 
    @media screen and (min-width: 768px) {
+
+    /**** Add margins to header area****/
 
 
     
