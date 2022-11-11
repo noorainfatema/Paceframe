@@ -177,7 +177,6 @@ span {
   margin: 0 16px;
   max-width: 95%;
   background-color: #F8F5F2;
-  padding: 70px 0;
 }
 
 .wrapper img {
@@ -229,6 +228,9 @@ img {
 .footer-links ul li {
   border-bottom: 1px solid #dedede;
   font-size: 0.75em;
+}
+
+#email-link {
   margin-left: 16px;
 }
 
@@ -239,6 +241,7 @@ img {
 /*************** GIANT FOOTER ****************/
 
 .giant-footer {
+  border-bottom: 1px solid #dedede;
   display: flex;
   justify-content: center;
 }
@@ -247,6 +250,21 @@ img {
   font-size: 4em;
   font-style: italic;
   margin: 20px 0;
+}
+
+/*************** TINY FOOTER ****************/
+.tiny-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-top: -22px;
+  padding-bottom: 20px;
+}
+
+.tiny-footer p {
+  font-size: 0.625em;
+  background: #078080;
+  padding: 0 5px;
 }
 
 
