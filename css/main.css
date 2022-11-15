@@ -105,6 +105,11 @@ body {
   font-family: HK Grotesk;
 }
 
+a {
+  color: #dedede;
+  text-decoration: none;
+}
+
 /********** HEADER **********/
 
 header {
