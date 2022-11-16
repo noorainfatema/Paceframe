@@ -162,12 +162,10 @@ nav ul li {
 
 
 /************ MISSION STATEMENT **************/
-.mission-statement {
-  font-size: 1.25em;
-  font-weight: 400;
-}
 
 .mission-statement p {
+  font-size: 1.25em;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -180,7 +178,7 @@ nav ul li {
   display: flex;
   justify-content: center;
   margin: 0 16px;
-  max-width: 95%;
+  max-width: 100%;
   background-color: #F8F5F2;
 }
 
@@ -500,9 +498,25 @@ img {
    ========================================================================== */
 
    @media screen and (min-width: 768px) {
-
     /**** Add margins to header area****/
     /*** adjust header font sizes ***/
+
+    /***** HEADER TABLET *****/
+
+    header h1 {
+      font-size: 3em;
+    }
+
+    nav ul li {
+      font-size: 1.125em;
+    }
+
+    /***** MISSION STATEMENT TABLET *****/
+
+    .mission-statement p {
+      font-size: 2em;
+      margin: 16px 32px;
+    }
 
 
     
