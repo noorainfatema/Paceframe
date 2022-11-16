@@ -244,7 +244,7 @@ nav ul li {
 }
 
 .about-content-wrapper article {
-  padding: 31px 0;
+  padding: 42px 0;
 }
 
 .about-content-wrapper img {
@@ -260,8 +260,13 @@ nav ul li {
   flex-flow: row wrap;
 }
 
+.about-content-wrapper h4 {
+  margin: 85px 0 0;
+}
+
 .about-content-wrapper h5 {
   color: #979797;
+  margin: 0;
 }
 
 
