@@ -235,7 +235,7 @@ nav ul li {
 }
 
 .about-socials span {
-  text-decoration: underline;
+  border-bottom: 1px solid #dedede;
 }
 
 /************************** CASE STUDY 1 PAGE **************************/
