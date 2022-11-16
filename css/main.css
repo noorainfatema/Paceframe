@@ -191,43 +191,39 @@ nav ul li {
 }
 
 /************************** ABOUT PAGE **************************/
-
-/**.info {
-}**/
-
+/******* INFO SECTION ********/
 .info h2 {
   color: #b6b6b6;
   font-size: .85em;
+  margin: 0;
 }
 
 .about-email {
-  padding: 0 16px;
+  padding: 24px 16px;
   border-bottom: 1px solid #dedede;
 }
 
 .about-email p {
   font-size: 1.75em;
+  margin: 0 0 12px;
 }
 
 .about-specialties {
-  padding: 0 16px;
+  padding: 24px 16px;
   border-bottom: 1px solid #dedede;
 }
 
 .about-specialties p {
   font-size: 1.5em;
+  margin: 0;
 }
 
 .about-socials {
-  padding: 0 16px;
+  padding: 24px 16px;
 }
 
-.about-socials ul {
-  padding: 0;
-}
-
-.about-socials ul li {
-  list-style: none;
+.about-socials p {
+  padding: 11px 16px;
 }
 
 .about-socials i {
@@ -237,6 +233,37 @@ nav ul li {
 .about-socials span {
   border-bottom: 1px solid #dedede;
 }
+
+/********* TEAM **********/
+
+.about-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.about-content-wrapper article {
+  padding: 31px 0;
+}
+
+.about-content-wrapper img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.about-content-wrapper h4, h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.about-content-wrapper h5 {
+  color: #979797;
+}
+
 
 /************************** CASE STUDY 1 PAGE **************************/
 
