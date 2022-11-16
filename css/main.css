@@ -171,7 +171,7 @@ nav ul li {
   text-align: center;
 }
 
-span {
+.mission-statement span {
   font-weight: bolder;
 }
 /************** HOME GRID **************/
@@ -192,6 +192,51 @@ span {
 
 /************************** ABOUT PAGE **************************/
 
+/**.info {
+}**/
+
+.info h2 {
+  color: #b6b6b6;
+  font-size: .85em;
+}
+
+.about-email {
+  padding: 0 16px;
+  border-bottom: 1px solid #dedede;
+}
+
+.about-email p {
+  font-size: 1.75em;
+}
+
+.about-specialties {
+  padding: 0 16px;
+  border-bottom: 1px solid #dedede;
+}
+
+.about-specialties p {
+  font-size: 1.5em;
+}
+
+.about-socials {
+  padding: 0 16px;
+}
+
+.about-socials ul {
+  padding: 0;
+}
+
+.about-socials ul li {
+  list-style: none;
+}
+
+.about-socials i {
+  padding-right: 6px;
+}
+
+.about-socials span {
+  text-decoration: underline;
+}
 
 /************************** CASE STUDY 1 PAGE **************************/
 
