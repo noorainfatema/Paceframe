@@ -203,7 +203,7 @@ nav ul li {
 
 .about-email p {
   font-size: 1.75em;
-  margin: 0 0 12px;
+  margin: 0;
 }
 
 .about-specialties {
@@ -357,8 +357,7 @@ img {
   justify-content: flex-start;
   align-items: center;
   margin: 0;
-  padding: 0;
-  min-height: 72px;
+  padding: 12px 0;
 }
 
 /*** nav links justified center or flex start? **/
@@ -370,6 +369,7 @@ img {
 
 #email-link {
   margin-left: 16px;
+  border-bottom: none;
 }
 
 #twitter-link {
@@ -501,6 +501,8 @@ img {
     /**** Add margins to header area****/
     /*** adjust header font sizes ***/
 
+    /************************************* HOMEPAGE TABLET *************************************/
+
     /***** HEADER TABLET *****/
 
     header h1 {
@@ -517,6 +519,31 @@ img {
       font-size: 2em;
       margin: 16px 32px;
     }
+
+    /***** FOOTER TABLET *****/
+
+    .footer-links ul li {
+      font-size: 0.875em;
+    } /********** is 14 px font too small? Do we want 16px font?**********/
+
+    .giant-footer h1 {
+      font-size: 7em;
+    }
+
+    /************************************* ABOUTPAGE TABLET *************************************/
+
+    /***** INFO SECTION *****/
+    .info h2 {
+      font-size: 1.125em;
+    }
+
+    .about-email p {
+      font-size: 2.625em;
+    }
+
+    .about-specialties p {
+      font-size: 2.25em;
+    }    
 
 
     
