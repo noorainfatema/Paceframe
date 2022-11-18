@@ -629,7 +629,20 @@ img {
       border-right: 1px solid #dedede;
     }
 
+    /************************************* CASESTUDY1 TABLET *************************************/
 
+    .main-image img {
+      max-width: 750px;
+    }
+    
+    .case-study p {
+      font-size: 1.25em; /*** previously .85 and looked good **/
+    }
+    
+    .secondary-image {
+      max-width: 750px;
+    }
+    
     
     }
     
