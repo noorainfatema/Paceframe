@@ -714,10 +714,30 @@ img {
     }
     
    @media only screen and (min-width:1200px) {
+    body {
+      max-width: 1440px;
+      margin: auto;
+    }
 
     .mission-statement {
       font-size: 2em;
     }
+    
+    /************************************* CASESTUDY1 DESKTOP *************************************/
+
+    .main-image img {
+      max-width: 1440px;
+      height: auto;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .secondary-image {
+      max-width: 1440px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    
 
        /************** HOME GRID **************
 
