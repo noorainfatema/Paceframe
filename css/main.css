@@ -719,8 +719,17 @@ img {
       margin: auto;
     }
 
-    .mission-statement {
-      font-size: 2em;
+    .mission-statement p{
+      font-size: 1.5em;
+    }
+
+    .footer-links ul li {
+      font-size: 1.5em;
+    }
+    
+    .giant-footer h1{
+      font-size: 13em;
+      margin-top: 0;
     }
     
     /************************************* CASESTUDY1 DESKTOP *************************************/
