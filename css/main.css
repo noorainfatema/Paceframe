@@ -163,10 +163,17 @@ nav ul li {
 
 /************ MISSION STATEMENT **************/
 
+.mission-statement {
+  background-color: #F8F5F2;
+  color: #000;
+}
+
 .mission-statement p {
   font-size: 1.25em;
   font-weight: 400;
   text-align: center;
+  margin: 0;
+  padding: 35px 0 23px;
 }
 
 .mission-statement span {
@@ -525,7 +532,7 @@ img {
 
     .mission-statement p {
       font-size: 2em;
-      margin: 16px 32px;
+      padding: 35px 32px 49px;
     }
 
     /***** GRID HERO AREA TABLET *****/
@@ -533,7 +540,7 @@ img {
     .hero-area {
       display: grid;
       margin: 0;
-      padding: 72px 8px;
+      padding: 0 8px 72px;
     }
 
     .wrapper img {
