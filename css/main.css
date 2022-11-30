@@ -362,7 +362,7 @@ img {
   border-bottom: 1px solid #dedede;
   list-style-type: none;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
   margin: 0;
   padding: 12px 0;
@@ -376,12 +376,12 @@ img {
 }
 
 #email-link {
-  margin-left: 16px;
+  /**margin-left: 16px;**/
   border-bottom: none;
 }
 
 #twitter-link {
-  margin: 0 32px;
+  /**margin: 0 32px;*/
 }
 
 /*************** GIANT FOOTER ****************/
@@ -597,6 +597,20 @@ img {
 
     /***** FOOTER TABLET *****/
 
+    .footer-links ul {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    
+    #email-link {
+      margin-left: 16px;
+    }
+    
+    #twitter-link {
+      margin: 0 32px;
+    }
+    
     .footer-links ul li {
       font-size: 0.875em;
     } /********** is 14 px font too small? Do we want 16px font?**********/
