@@ -420,6 +420,14 @@ img {
   padding: 0 5px;
 }
 
+#tiny-footer-left {
+  padding-left: 25px;
+}
+
+#tiny-footer-right {
+  padding-right: 25px;
+}
+
 
 
 
@@ -625,6 +633,17 @@ img {
     .giant-footer h1 {
       font-size: 7em;
     }
+
+    #tiny-footer-left {
+      padding-right: 5px;
+      padding-left: 16px;
+    }
+    
+    #tiny-footer-right {
+      padding-right: 16px;
+      padding-left: 5px;
+    }
+    
 
     /************************************* ABOUTPAGE TABLET *************************************/
 
