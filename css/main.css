@@ -193,6 +193,12 @@ nav ul li {
   background-color: #F8F5F2;
   max-width: 360px;
   padding: 8px;
+  object-fit: cover;
+}
+
+.grid-img {
+  max-height: 250px;
+  max-width: 250px;
 }
 
 /************************** ABOUT PAGE **************************/
