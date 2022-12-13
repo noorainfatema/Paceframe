@@ -196,10 +196,60 @@ nav ul li {
   object-fit: cover;
 }
 
-.grid-img {
-  max-height: 250px;
-  max-width: 250px;
+.image-group-one {
+  min-height: 900px;
 }
+
+.img-one {
+  background-image: url(../img/repairpal-explainer.png);
+  background-position: center;
+  background-size: cover;
+}
+.img-two {
+  background-image: url(../img/technology.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img-three {
+  background-image: url(../img/slam2022.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.image-group-two {
+  min-height: 532px;
+}
+
+.img-four {
+  background-image: url(../img/hpomen.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img-five {
+  background-image: url(../img/brand-refresh.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.image-group-three {
+  min-height: 360px;
+}
+
+.img-six {
+  background-image: url(../img/yti.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img-seven {
+  background-image: url(../img/repairpal-animated.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
 
 /************************** ABOUT PAGE **************************/
 /******* INFO SECTION ********/
@@ -613,6 +663,8 @@ img {
       grid-column: 2/4;
       grid-row: 1/2;
     }
+
+
 
     /***** FOOTER TABLET *****/
 
