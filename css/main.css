@@ -654,8 +654,9 @@ img {
     }
 
     .img-six img {
-      display: none;
+      opacity: 0;
     }
+    /********** If I get rid of the sixth image, all the divs become skinny legend. So I just made it invisible **********/
 
     .img-seven {
       background-image: url(../img/repairpal-animated.jpg);
@@ -664,7 +665,11 @@ img {
       grid-column: 2/4;
       grid-row: 1/2;
     }
-/********** If I get rid of the seventh image, all the divs become skinny legend **********/
+
+    .img-seven img {
+      display: none;
+    }
+
 
 
     /***** FOOTER TABLET *****/
