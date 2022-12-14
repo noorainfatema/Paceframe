@@ -198,6 +198,7 @@ nav ul li {
 
 .grid-img {
   min-height: 376px;
+  border-radius: 4px;
 }
 
 .grid-img p {
@@ -892,6 +893,7 @@ img {
     .img-hover:hover {
       background-color: rgba(0, 0, 0, 0.6);
       transition-duration: 0.25s;
+      border-radius: 4px;
     }
 
     /*** get feedback to see if transition is too slow ***/
