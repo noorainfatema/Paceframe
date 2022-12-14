@@ -656,6 +656,8 @@ img {
       background-size: cover;
       grid-column: 1/2;
       grid-row: 1/2;
+      height: 532px;
+      width: auto;
     }
 
     .img-six img {
@@ -853,6 +855,10 @@ img {
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+    .img-six {
+      z-index: 1;
     }
 
     .img-hover {
