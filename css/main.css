@@ -196,10 +196,13 @@ nav ul li {
   object-fit: cover;
 }
 
-grid-img {
+.grid-img {
   min-height: 376px;
 }
 
+.grid-img p {
+  display: none;
+}
 
 
 
@@ -832,13 +835,29 @@ img {
       max-width: 1440px;
       margin: auto;
     }
-
+    /************************************* DESKTOP VIEW *******************************************/
     .mission-statement p{
       font-size: 1.5em;
     }
 
     /******************** HOME PAGE GRID ****************/
     /******insert grid stuff here ******/
+    /**.img-one:hover {
+      opacity: 30%;
+      transition-delay: 0.9ms;
+    }**/
+
+    .grid-img:hover p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .grid-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
     .footer-links ul li {
       font-size: 1.5em;
