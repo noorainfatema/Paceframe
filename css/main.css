@@ -874,6 +874,7 @@ img {
       display: flex;
       justify-content: center;
       align-items: center;
+      transition-duration: 0.25s;
     }
 
     .img-six {
@@ -890,7 +891,10 @@ img {
 
     .img-hover:hover {
       background-color: rgba(0, 0, 0, 0.6);
+      transition-duration: 0.25s;
     }
+
+    /*** get feedback to see if transition is too slow ***/
 
     .footer-links ul li {
       font-size: 1.5em;
