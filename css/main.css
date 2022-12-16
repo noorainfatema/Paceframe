@@ -300,15 +300,24 @@ nav ul li {
 /************************** CASE STUDY 1 PAGE **************************/
 /****** MAIN IMAGE *****/
 
-.main-image {
+.case-intro {
   background-color: #fff;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-flow: row wrap;
 }
+
+.case-intro h1 {
+  color: #000;
+  font-size: 1.25em;
+  padding: 23px 32px 0;
+  margin: 0;
+}
+
+
 /********* this section is being finicky on iphone dimensions, could just be google browser being dumb *********/
-.main-image figure {
+.case-study figure {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -317,7 +326,7 @@ nav ul li {
 }
 
 /** im replacing the img with a video for the first case study so i might come back to this class later
-.main-image img {
+.case-intro img {
   width: 100%;
   max-width: 350px;
   height: auto;
@@ -336,12 +345,13 @@ border-width: 0px;
 .case-study {
   background-color: #fff;
   color: #000;
-  padding: 0 23px 32px;
+  padding: 0 32px 23px;
   text-align: justify;
 }
 
 .case-study p {
   font-size: 0.875em;
+  padding: 8px 0;
   margin: 0;
 }
 
@@ -357,7 +367,7 @@ border-width: 0px;
   width: 100%;
   max-width: 350px;
   height: auto;
-  padding: 23px 16px;
+  padding: 8px 16px;
 }
 
 
@@ -830,7 +840,7 @@ img {
 
     /************************************* CASESTUDY1 TABLET *************************************/
 
-    .main-image img {
+    .case-intro img {
       max-width: 750px;
     }
     
@@ -919,7 +929,7 @@ img {
     
     /************************************* CASESTUDY1 DESKTOP *************************************/
 
-    .main-image img {
+    .case-intro img {
       max-width: 1440px;
       height: auto;
       padding-left: 0;
