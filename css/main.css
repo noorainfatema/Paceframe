@@ -317,7 +317,7 @@ nav ul li {
 
 
 /********* this section is being finicky on iphone dimensions, could just be google browser being dumb *********/
-.case-study figure {
+.case-study img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -852,6 +852,12 @@ img {
       max-width: 750px;
     }
     
+    iframe {
+      width: 100%;
+      height: auto;
+      padding: 8px 0;
+      border-width: 0px;
+      }
     
     }
     
