@@ -333,11 +333,18 @@ nav ul li {
   padding: 23px 16px;
 }**/
 
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0;
+}
 
 iframe {
   border-width: 0px;
   display: block;
   max-width: 350px;
+  max-height: 196.875px;
   width: 100%;
   height: calc(.5625 * 100vw);
 }
@@ -857,6 +864,7 @@ img {
 
     iframe {
       max-width: 750px;
+      max-height: 421.875px;
     }
     
     }
@@ -938,6 +946,7 @@ img {
 
     iframe {
       max-width: 1440px;
+      max-height: 810px;
     }
 
     .case-intro img {
