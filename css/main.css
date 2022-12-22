@@ -844,9 +844,8 @@ img {
       border-right: 1px solid #dedede;
     }
 
-    /**** taking out bottom border bc i added a border around the entire info and team divs, 
-    I'll put it back if the team doesnt like the way the entire border looks**/
     .img4 {
+      border-bottom: 1px solid #dedede;
       border-right: 1px solid #dedede;
     }
 
@@ -958,6 +957,12 @@ img {
       border-right: 1px solid #dedede;
       border-left: 1px solid #dedede;
       border-bottom: 1px solid #dedede;
+    }
+
+        /**** taking out bottom border bc i added a border around the entire info and team divs, 
+    I'll put it back if the team doesnt like the way the entire border looks**/
+    .img4 {
+      border-bottom: none;
     }
 
     /************************************* CASESTUDY1 DESKTOP *************************************/
