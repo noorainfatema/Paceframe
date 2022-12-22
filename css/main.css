@@ -436,13 +436,13 @@ img {
 /*************** GIANT FOOTER ****************/
 
 .giant-footer {
+  font-size: 9vw;
   border-bottom: 1px solid #dedede;
   display: flex;
   justify-content: center;
 }
 
 .giant-footer h1 {
-  font-size: 4em;
   font-style: italic;
   margin: 20px 0;
 }
@@ -729,9 +729,7 @@ img {
       font-size: 0.875em;
     } /********** is 14 px font too small? Do we want 16px font?**********/
 
-    .giant-footer h1 {
-      font-size: 7em;
-    }
+
 
     #tiny-footer-left {
       padding-right: 5px;
@@ -944,7 +942,6 @@ img {
     }
     
     .giant-footer h1{
-      font-size: 13em;
       margin-top: 0;
     }
     /************************************* ABOUT PAGE DESKTOP *************************************/
