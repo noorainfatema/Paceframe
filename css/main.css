@@ -333,18 +333,10 @@ nav ul li {
   padding: 23px 16px;
 }**/
 
-/** temporarily removing this 12/21
-iframe {
-width: 100%;
-height: auto;
-padding: 8px 0;
-border-width: 0px;
-}**/
 
 iframe {
   border-width: 0px;
   display: block;
-  margin: 1em auto;
   max-width: 350px;
   width: 100%;
   height: calc(.5625 * 100vw);
@@ -861,13 +853,11 @@ img {
     .secondary-image {
       max-width: 750px;
     }
-    
+  
+
     iframe {
-      width: 100%;
-      height: auto;
-      padding: 8px 0;
-      border-width: 0px;
-      }
+      max-width: 750px;
+    }
     
     }
     
@@ -944,6 +934,11 @@ img {
     }
     
     /************************************* CASESTUDY1 DESKTOP *************************************/
+
+
+    iframe {
+      max-width: 1440px;
+    }
 
     .case-intro img {
       max-width: 1440px;
