@@ -333,11 +333,21 @@ nav ul li {
   padding: 23px 16px;
 }**/
 
+/** temporarily removing this 12/21
 iframe {
 width: 100%;
 height: auto;
 padding: 8px 0;
 border-width: 0px;
+}**/
+
+iframe {
+  border-width: 0px;
+  display: block;
+  margin: 1em auto;
+  max-width: 350px;
+  width: 100%;
+  height: calc(.5625 * 100vw);
 }
 
 /***** CASE STUDY *****/
