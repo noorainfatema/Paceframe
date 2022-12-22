@@ -343,8 +343,8 @@ nav ul li {
 iframe {
   border-width: 0px;
   display: block;
-  max-width: 350px;
-  max-height: 196.875px;
+  min-width: 350px;
+  min-height: 196.875px;
   width: 100%;
   height: calc(.5625 * 100vw);
 }
@@ -374,7 +374,7 @@ iframe {
 
 .secondary-image {
   width: 100%;
-  max-width: 350px;
+  min-width: 350px;
   height: auto;
   padding: 8px 16px;
 }
@@ -858,13 +858,13 @@ img {
     }
     
     .secondary-image {
-      max-width: 750px;
+      min-width: 750px;
     }
   
 
     iframe {
-      max-width: 750px;
-      max-height: 421.875px;
+      min-width: 750px;
+      min-height: 421.875px;
     }
     
     }
