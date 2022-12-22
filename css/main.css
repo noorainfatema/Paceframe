@@ -289,7 +289,7 @@ nav ul li {
 }
 
 .about-content-wrapper h4 {
-  margin: 85px 0 0;
+  margin: 45px 0 0;
 }
 
 .about-content-wrapper h5 {
@@ -811,6 +811,7 @@ img {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
     }
+
     .about-content-wrapper article {
       width: auto;
       max-height: 400px;
@@ -821,16 +822,17 @@ img {
       width: auto;
       margin: 0 15px;
     }
+
     .about-content-wrapper h4 {
       margin: 25px 0 0;
     }
 
-    .about-content-wrapper img, h4, h5 {
+    .team-image {
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-flow: row wrap;
     }
+
 
     .img1 {
       border-bottom: 1px solid #dedede;
