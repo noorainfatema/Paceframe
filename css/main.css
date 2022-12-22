@@ -916,6 +916,10 @@ img {
       z-index: 1;
     }
 
+    .extra {
+      width: 0%;
+    }
+
     .img-hover {
       height: 100%;
       width: 100%;
