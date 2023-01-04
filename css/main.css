@@ -89,8 +89,8 @@ textarea {
 
 /********** BODY **********/
 @font-face {
-  src:url(../hk-grotesk/HKGrotesk-Medium.otf);
   font-family: HK Grotesk;
+  src:url(../hk-grotesk/HKGrotesk-Medium.otf);
 }
 
 html {
