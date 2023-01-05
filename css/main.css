@@ -875,6 +875,17 @@ img {
       margin: auto;
     }
     /************************************* DESKTOP VIEW *******************************************/
+    
+    #work-link:hover {
+      font-weight: 900;
+      transition-duration: 0.5s;
+    }
+
+    #about-link:hover {
+      font-weight: 900;
+      transition-duration: 0.5s;
+    }
+    
     .mission-statement p{
       font-size: 1.5em;
       padding-bottom: 35px;
