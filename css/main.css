@@ -439,10 +439,10 @@ img {
   border-bottom: 1px solid #dedede;
   display: flex;
   justify-content: center;
+  font-size: 9vw;
 }
 
 .giant-footer h1 {
-  font-size: 15vw;
   font-style: italic;
   margin: 20px 0;
 }
@@ -950,6 +950,10 @@ img {
 
     .footer-links ul li {
       font-size: 1.5em;
+    }
+
+    .giant-footer {
+      font-size: 7.25em;
     }
     
     .giant-footer h1{
