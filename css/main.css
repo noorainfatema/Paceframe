@@ -878,12 +878,12 @@ img {
     
     #work-link:hover {
       font-weight: 900;
-      transition-duration: 0.5s;
+      transition-duration: 0.25s;
     }
 
     #about-link:hover {
       font-weight: 900;
-      transition-duration: 0.5s;
+      transition-duration: 0.25s;
     }
     
     .mission-statement p{
@@ -955,6 +955,23 @@ img {
     .giant-footer h1{
       margin-top: 0;
     }
+
+    #email-link:hover {
+      font-weight: 900;
+      transition-duration: 0.5s;
+    }
+
+    #twitter-link:hover {
+      font-weight: 900;
+      transition-duration: 0.25s;
+    }
+
+    #instagram-link:hover {
+      font-weight: 900;
+      transition-duration: 0.25s;
+    }
+    
+
     /************************************* ABOUT PAGE DESKTOP *************************************/
 
     .info { 
